@@ -1,0 +1,212 @@
+/* Colour Schemes to use are:
+- #210B2C
+- #55286F
+- #BC96E6 
+- #D8B4E2
+- #AE759F */
+
+body{
+    background-color:#D8B4E2 ;
+    color: #210B2C;
+}
+
+/* The CSS Styling for the header element */
+
+.hero-section{
+    background-color: #bfb0cf;
+    padding: 0px 0px 0px 0px;
+}
+
+svg{
+    width: 100px;
+    height: 60px;
+    display: flex;
+    justify-content: left;
+    margin:7px;
+
+    
+}
+.logo{
+    text-align: left;
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.nav{
+    display:flex;
+    margin:20px 12px;
+
+    
+}
+
+.nav > a{
+    text-decoration: none;
+
+    padding:0px 0px 0px 10px;
+    color: #333333;
+    
+    
+
+}
+
+.nav>a:hover{
+    font-size: 15px;
+    color: rgb(50, 10, 40);
+}
+
+h1{
+    margin: 0;
+    padding: 10px 20px;
+    font-size: 36px;
+    font-family: "Audiowide", sans-serif;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    line-height: 1.8;
+
+
+}
+
+.header-title{
+    margin: 0px;
+    height: 75%;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+
+
+    background-image: url(./images/☆.jpeg);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#features{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: #bfb0cf;
+    text-wrap: wrap;
+    gap:10px;
+}
+
+
+
+.para-text{
+    font-family: "Audiowide", sans-serif;
+    letter-spacing: 2px;
+    line-height: 25px;
+
+}
+
+.para-text::first-line{
+    font-size:large ;
+}
+
+.lower{
+    font-size: 12px;
+    line-height: 25px;
+    padding-bottom: 15px;
+    
+}
+.points{
+    line-height: 45px;;
+}
+
+
+.feature > h2{
+    font-size: 30px;
+    font-family: "Audiowide", sans-serif;
+    color: #333333;
+
+}
+
+.last{
+    background-color:#AE759F4D ;
+    border: #210B2C;
+    border-radius: 10px;
+    background-image: url(./images/flourish.png);
+    background-size: contain;
+
+
+}
+
+.list{
+    list-style: none;
+    font-family: "Audiowide", sans-serif;
+    color: #210B2C;
+    font-weight: bold;
+    font-size: large;
+    line-height: 35px;
+    padding: 25px;
+
+}
+
+button{
+    background-color: #210B2C;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: "Audiowide", sans-serif;
+}
+
+button:hover{
+    font-size: large;
+
+}
+
+
+#about{
+    background-color: #210B2C;
+    color: white;
+    font-family: "Audiowide", sans-serif;
+}
+
+#about a{
+    color:#D8B4E2 ;
+}
+
+
+.cta-section{
+    background-color: #bfb0cf;
+    color: #210B2C;
+    font-family: "Audiowide", sans-serif;
+}
+
+
+
+
+
+
+@media screen and (max-width:900px){
+    /* CSS */
+    svg{
+        width: 45px;
+        height: 45px;
+    }
+
+    h1{
+        font-size: 21px;
+        line-height: 1.0;
+        word-spacing: 3px;
+        letter-spacing: 2px;
+
+    }
+
+    .header-title{
+        height: 30%;
+    }
+
+    #features {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    
+
+    
+}
